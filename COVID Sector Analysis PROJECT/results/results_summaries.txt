@@ -1,0 +1,621 @@
+Summary for model with Dependent: Unemployment Rate and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Unemployment Rate   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                  0.021
+Method:                 Least Squares   F-statistic:                     6.998
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):            0.00871
+Time:                        05:14:22   Log-Likelihood:                -628.18
+No. Observations:                 235   AIC:                             1260.
+Df Residuals:                     233   BIC:                             1267.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                7.2256      0.543     13.318      0.000       6.162       8.289
+Days Since COVID     0.0058      0.002      2.645      0.008       0.002       0.010
+==============================================================================
+Omnibus:                       32.615   Durbin-Watson:                   0.042
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               24.449
+Skew:                           0.682   Prob(JB):                     4.91e-06
+Kurtosis:                       2.204   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Information Technology and Independent: Days Since COVID variables:
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Information Technology   R-squared:                       0.777
+Model:                                OLS   Adj. R-squared:                  0.776
+Method:                     Least Squares   F-statistic:                     770.8
+Date:                    Thu, 18 Apr 2024   Prob (F-statistic):           7.56e-76
+Time:                            05:14:22   Log-Likelihood:                -1267.4
+No. Observations:                     235   AIC:                             2539.
+Df Residuals:                         233   BIC:                             2546.
+Df Model:                               1                                         
+Covariance Type:                      HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              547.9359      8.551     64.079      0.000     531.176     564.695
+Days Since COVID     1.0163      0.037     27.764      0.000       0.945       1.088
+==============================================================================
+Omnibus:                        4.998   Durbin-Watson:                   0.100
+Prob(Omnibus):                  0.082   Jarque-Bera (JB):                4.735
+Skew:                          -0.341   Prob(JB):                       0.0937
+Kurtosis:                       3.132   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Information Technology and Independent: Unemployment Rate variables:
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Information Technology   R-squared:                       0.000
+Model:                                OLS   Adj. R-squared:                 -0.004
+Method:                     Least Squares   F-statistic:                   0.01319
+Date:                    Thu, 18 Apr 2024   Prob (F-statistic):              0.909
+Time:                            05:14:22   Log-Likelihood:                -1443.5
+No. Observations:                     235   AIC:                             2891.
+Df Residuals:                         233   BIC:                             2898.
+Df Model:                               1                                         
+Covariance Type:                      HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               718.2640     20.600     34.867      0.000     677.889     758.639
+Unemployment Rate     0.2473      2.153      0.115      0.909      -3.972       4.467
+==============================================================================
+Omnibus:                       78.505   Durbin-Watson:                   0.022
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               13.805
+Skew:                          -0.188   Prob(JB):                      0.00101
+Kurtosis:                       1.873   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Real Estate and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Real Estate   R-squared:                       0.422
+Model:                            OLS   Adj. R-squared:                  0.420
+Method:                 Least Squares   F-statistic:                     158.5
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           4.55e-28
+Time:                        05:14:22   Log-Likelihood:                -1326.1
+No. Observations:                 235   AIC:                             2656.
+Df Residuals:                     233   BIC:                             2663.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const             1219.7072     11.009    110.787      0.000    1198.129    1241.285
+Days Since COVID     0.5982      0.048     12.589      0.000       0.505       0.691
+==============================================================================
+Omnibus:                       71.698   Durbin-Watson:                   0.188
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              183.787
+Skew:                          -1.375   Prob(JB):                     1.23e-40
+Kurtosis:                       6.348   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Real Estate and Independent: Unemployment Rate variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Real Estate   R-squared:                       0.007
+Model:                            OLS   Adj. R-squared:                  0.003
+Method:                 Least Squares   F-statistic:                     1.573
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):              0.211
+Time:                        05:14:22   Log-Likelihood:                -1389.8
+No. Observations:                 235   AIC:                             2784.
+Df Residuals:                     233   BIC:                             2790.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const              1338.3779     16.957     78.925      0.000    1305.142    1371.614
+Unemployment Rate    -2.0965      1.671     -1.254      0.210      -5.372       1.179
+==============================================================================
+Omnibus:                       54.315   Durbin-Watson:                   0.108
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              106.813
+Skew:                          -1.151   Prob(JB):                     6.39e-24
+Kurtosis:                       5.369   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Materials and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              Materials   R-squared:                       0.586
+Model:                            OLS   Adj. R-squared:                  0.584
+Method:                 Least Squares   F-statistic:                     294.9
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           2.87e-43
+Time:                        05:14:22   Log-Likelihood:                -1342.8
+No. Observations:                 235   AIC:                             2690.
+Df Residuals:                     233   BIC:                             2697.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              803.0622     12.778     62.846      0.000     778.017     828.107
+Days Since COVID     0.8932      0.052     17.174      0.000       0.791       0.995
+==============================================================================
+Omnibus:                       13.429   Durbin-Watson:                   0.085
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               14.311
+Skew:                          -0.600   Prob(JB):                     0.000780
+Kurtosis:                       3.139   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Materials and Independent: Unemployment Rate variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              Materials   R-squared:                       0.040
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     8.858
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):            0.00323
+Time:                        05:14:22   Log-Likelihood:                -1441.6
+No. Observations:                 235   AIC:                             2887.
+Df Residuals:                     233   BIC:                             2894.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const              1006.9673     20.821     48.363      0.000     966.159    1047.776
+Unemployment Rate    -6.3836      2.145     -2.976      0.003     -10.587      -2.180
+==============================================================================
+Omnibus:                       12.562   Durbin-Watson:                   0.036
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               13.675
+Skew:                          -0.583   Prob(JB):                      0.00107
+Kurtosis:                       2.810   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Health Care and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Health Care   R-squared:                       0.327
+Model:                            OLS   Adj. R-squared:                  0.324
+Method:                 Least Squares   F-statistic:                     90.89
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           2.11e-18
+Time:                        05:14:22   Log-Likelihood:                -1163.1
+No. Observations:                 235   AIC:                             2330.
+Df Residuals:                     233   BIC:                             2337.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              603.7819      6.042     99.933      0.000     591.940     615.624
+Days Since COVID     0.2440      0.026      9.533      0.000       0.194       0.294
+==============================================================================
+Omnibus:                       83.120   Durbin-Watson:                   0.155
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              240.594
+Skew:                          -1.549   Prob(JB):                     5.70e-53
+Kurtosis:                       6.870   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Health Care and Independent: Unemployment Rate variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Health Care   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.004
+Method:                 Least Squares   F-statistic:                    0.1369
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):              0.712
+Time:                        05:14:22   Log-Likelihood:                -1209.6
+No. Observations:                 235   AIC:                             2423.
+Df Residuals:                     233   BIC:                             2430.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               647.6717      8.329     77.764      0.000     631.348     663.996
+Unemployment Rate    -0.3063      0.828     -0.370      0.711      -1.929       1.316
+==============================================================================
+Omnibus:                       77.722   Durbin-Watson:                   0.104
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              204.877
+Skew:                          -1.485   Prob(JB):                     3.25e-45
+Kurtosis:                       6.479   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Financials and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Financials   R-squared:                       0.053
+Model:                            OLS   Adj. R-squared:                  0.049
+Method:                 Least Squares   F-statistic:                     10.24
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):            0.00156
+Time:                        05:14:22   Log-Likelihood:                -1344.4
+No. Observations:                 235   AIC:                             2693.
+Df Residuals:                     233   BIC:                             2700.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              804.2322     13.227     60.802      0.000     778.308     830.157
+Days Since COVID     0.1799      0.056      3.201      0.001       0.070       0.290
+==============================================================================
+Omnibus:                        3.075   Durbin-Watson:                   0.079
+Prob(Omnibus):                  0.215   Jarque-Bera (JB):                2.547
+Skew:                          -0.142   Prob(JB):                        0.280
+Kurtosis:                       2.576   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Financials and Independent: Unemployment Rate variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Financials   R-squared:                       0.305
+Model:                            OLS   Adj. R-squared:                  0.302
+Method:                 Least Squares   F-statistic:                     95.94
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           3.42e-19
+Time:                        05:14:22   Log-Likelihood:                -1308.2
+No. Observations:                 235   AIC:                             2620.
+Df Residuals:                     233   BIC:                             2627.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               931.6845     13.134     70.935      0.000     905.942     957.427
+Unemployment Rate   -11.8036      1.205     -9.795      0.000     -14.166      -9.442
+==============================================================================
+Omnibus:                       98.033   Durbin-Watson:                   0.117
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              303.305
+Skew:                          -1.832   Prob(JB):                     1.37e-66
+Kurtosis:                       7.189   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Consumer Discretionary and Independent: Days Since COVID variables:
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Consumer Discretionary   R-squared:                       0.779
+Model:                                OLS   Adj. R-squared:                  0.778
+Method:                     Least Squares   F-statistic:                     713.2
+Date:                    Thu, 18 Apr 2024   Prob (F-statistic):           7.45e-73
+Time:                            05:14:22   Log-Likelihood:                -1299.4
+No. Observations:                     235   AIC:                             2603.
+Df Residuals:                         233   BIC:                             2610.
+Df Model:                               1                                         
+Covariance Type:                      HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              572.0369     10.580     54.069      0.000     551.301     592.773
+Days Since COVID     1.1725      0.044     26.706      0.000       1.086       1.259
+==============================================================================
+Omnibus:                        7.894   Durbin-Watson:                   0.067
+Prob(Omnibus):                  0.019   Jarque-Bera (JB):                7.865
+Skew:                          -0.444   Prob(JB):                       0.0196
+Kurtosis:                       3.118   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Consumer Discretionary and Independent: Unemployment Rate variables:
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Consumer Discretionary   R-squared:                       0.010
+Model:                                OLS   Adj. R-squared:                  0.006
+Method:                     Least Squares   F-statistic:                     2.491
+Date:                    Thu, 18 Apr 2024   Prob (F-statistic):              0.116
+Time:                            05:14:22   Log-Likelihood:                -1475.6
+No. Observations:                     235   AIC:                             2955.
+Df Residuals:                         233   BIC:                             2962.
+Df Model:                               1                                         
+Covariance Type:                      HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               800.9627     23.504     34.078      0.000     754.896     847.029
+Unemployment Rate    -3.6618      2.320     -1.578      0.114      -8.209       0.885
+==============================================================================
+Omnibus:                       40.950   Durbin-Watson:                   0.015
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               10.247
+Skew:                          -0.120   Prob(JB):                      0.00595
+Kurtosis:                       2.006   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Communication Services and Independent: Days Since COVID variables:
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Communication Services   R-squared:                       0.788
+Model:                                OLS   Adj. R-squared:                  0.787
+Method:                     Least Squares   F-statistic:                     906.8
+Date:                    Thu, 18 Apr 2024   Prob (F-statistic):           2.78e-82
+Time:                            05:14:22   Log-Likelihood:                -1242.6
+No. Observations:                     235   AIC:                             2489.
+Df Residuals:                         233   BIC:                             2496.
+Df Model:                               1                                         
+Covariance Type:                      HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              666.1679      6.938     96.018      0.000     652.570     679.766
+Days Since COVID     0.9467      0.031     30.113      0.000       0.885       1.008
+==============================================================================
+Omnibus:                       18.382   Durbin-Watson:                   0.156
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               22.615
+Skew:                          -0.583   Prob(JB):                     1.23e-05
+Kurtosis:                       3.976   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Communication Services and Independent: Unemployment Rate variables:
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Communication Services   R-squared:                       0.014
+Model:                                OLS   Adj. R-squared:                  0.009
+Method:                     Least Squares   F-statistic:                     2.922
+Date:                    Thu, 18 Apr 2024   Prob (F-statistic):             0.0887
+Time:                            05:14:22   Log-Likelihood:                -1423.5
+No. Observations:                     235   AIC:                             2851.
+Df Residuals:                         233   BIC:                             2858.
+Df Model:                               1                                         
+Covariance Type:                      HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               798.6217     18.905     42.245      0.000     761.569     835.674
+Unemployment Rate     3.4204      2.001      1.709      0.087      -0.501       7.342
+==============================================================================
+Omnibus:                       58.288   Durbin-Watson:                   0.035
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               12.480
+Skew:                          -0.185   Prob(JB):                      0.00195
+Kurtosis:                       1.934   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Industrials and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Industrials   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.016
+Method:                 Least Squares   F-statistic:                     3.203
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):             0.0748
+Time:                        05:14:22   Log-Likelihood:                -1430.7
+No. Observations:                 235   AIC:                             2865.
+Df Residuals:                     233   BIC:                             2872.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              690.3485     19.284     35.799      0.000     652.553     728.144
+Days Since COVID    -0.1555      0.087     -1.790      0.073      -0.326       0.015
+==============================================================================
+Omnibus:                       15.869   Durbin-Watson:                   0.033
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.752
+Skew:                           0.146   Prob(JB):                       0.0342
+Kurtosis:                       2.223   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Industrials and Independent: Unemployment Rate variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Industrials   R-squared:                       0.487
+Model:                            OLS   Adj. R-squared:                  0.485
+Method:                 Least Squares   F-statistic:                     189.2
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           6.49e-32
+Time:                        05:14:22   Log-Likelihood:                -1354.6
+No. Observations:                 235   AIC:                             2713.
+Df Residuals:                     233   BIC:                             2720.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               837.7972     17.055     49.124      0.000     804.371     871.224
+Unemployment Rate   -21.1623      1.538    -13.755      0.000     -24.178     -18.147
+==============================================================================
+Omnibus:                       78.293   Durbin-Watson:                   0.093
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              217.580
+Skew:                          -1.469   Prob(JB):                     5.66e-48
+Kurtosis:                       6.686   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Consumer Staples and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       Consumer Staples   R-squared:                       0.581
+Model:                            OLS   Adj. R-squared:                  0.579
+Method:                 Least Squares   F-statistic:                     277.7
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           1.38e-41
+Time:                        05:14:22   Log-Likelihood:                -1144.8
+No. Observations:                 235   AIC:                             2294.
+Df Residuals:                     233   BIC:                             2300.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              616.6294      5.180    119.050      0.000     606.478     626.781
+Days Since COVID     0.3806      0.023     16.666      0.000       0.336       0.425
+==============================================================================
+Omnibus:                       10.730   Durbin-Watson:                   0.137
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):                5.272
+Skew:                          -0.119   Prob(JB):                       0.0717
+Kurtosis:                       2.306   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Consumer Staples and Independent: Unemployment Rate variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       Consumer Staples   R-squared:                       0.064
+Model:                            OLS   Adj. R-squared:                  0.060
+Method:                 Least Squares   F-statistic:                     21.53
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           5.81e-06
+Time:                        05:14:22   Log-Likelihood:                -1239.1
+No. Observations:                 235   AIC:                             2482.
+Df Residuals:                     233   BIC:                             2489.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               709.6495      8.316     85.334      0.000     693.350     725.949
+Unemployment Rate    -3.4667      0.747     -4.640      0.000      -4.931      -2.002
+==============================================================================
+Omnibus:                        0.327   Durbin-Watson:                   0.064
+Prob(Omnibus):                  0.849   Jarque-Bera (JB):                0.473
+Skew:                          -0.021   Prob(JB):                        0.789
+Kurtosis:                       2.784   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Energy and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Energy   R-squared:                       0.302
+Model:                            OLS   Adj. R-squared:                  0.299
+Method:                 Least Squares   F-statistic:                     70.09
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           5.29e-15
+Time:                        05:14:22   Log-Likelihood:                -1127.7
+No. Observations:                 235   AIC:                             2259.
+Df Residuals:                     233   BIC:                             2266.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              296.3011      5.412     54.751      0.000     285.694     306.908
+Days Since COVID    -0.1978      0.024     -8.372      0.000      -0.244      -0.151
+==============================================================================
+Omnibus:                       23.929   Durbin-Watson:                   0.063
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.211
+Skew:                          -0.676   Prob(JB):                     1.01e-07
+Kurtosis:                       4.209   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Energy and Independent: Unemployment Rate variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Energy   R-squared:                       0.154
+Model:                            OLS   Adj. R-squared:                  0.150
+Method:                 Least Squares   F-statistic:                     36.56
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           5.84e-09
+Time:                        05:14:22   Log-Likelihood:                -1150.3
+No. Observations:                 235   AIC:                             2305.
+Df Residuals:                     233   BIC:                             2311.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               294.6730      7.098     41.515      0.000     280.761     308.585
+Unemployment Rate    -3.8856      0.643     -6.046      0.000      -5.145      -2.626
+==============================================================================
+Omnibus:                        4.587   Durbin-Watson:                   0.057
+Prob(Omnibus):                  0.101   Jarque-Bera (JB):                4.254
+Skew:                          -0.278   Prob(JB):                        0.119
+Kurtosis:                       3.353   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Utilities and Independent: Days Since COVID variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              Utilities   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                    0.6715
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):              0.413
+Time:                        05:14:22   Log-Likelihood:                -1100.4
+No. Observations:                 235   AIC:                             2205.
+Df Residuals:                     233   BIC:                             2212.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              381.2057      4.361     87.416      0.000     372.659     389.753
+Days Since COVID    -0.0159      0.019     -0.819      0.413      -0.054       0.022
+==============================================================================
+Omnibus:                        1.938   Durbin-Watson:                   0.119
+Prob(Omnibus):                  0.379   Jarque-Bera (JB):                1.592
+Skew:                          -0.166   Prob(JB):                        0.451
+Kurtosis:                       3.229   Cond. No.                         392.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Summary for model with Dependent: Utilities and Independent: Unemployment Rate variables:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              Utilities   R-squared:                       0.308
+Model:                            OLS   Adj. R-squared:                  0.305
+Method:                 Least Squares   F-statistic:                     88.26
+Date:                Thu, 18 Apr 2024   Prob (F-statistic):           5.52e-18
+Time:                        05:14:22   Log-Likelihood:                -1057.6
+No. Observations:                 235   AIC:                             2119.
+Df Residuals:                     233   BIC:                             2126.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const               412.1437      4.604     89.512      0.000     403.119     421.168
+Unemployment Rate    -4.0944      0.436     -9.395      0.000      -4.949      -3.240
+==============================================================================
+Omnibus:                       88.203   Durbin-Watson:                   0.176
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              315.633
+Skew:                          -1.549   Prob(JB):                     2.89e-69
+Kurtosis:                       7.758   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
