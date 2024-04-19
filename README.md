@@ -1,7 +1,7 @@
 # Covid-19-Sector-Analysis
-This project originated from a business statistics assignment I completed in school using Excel. I decided to expand on it and developed a Python program to streamline the analysis of the economic impact of COVID-19.
+This project originated from a business statistics assignment I completed in school using Excel. I decided to expand on it and developed a Python program to streamline the analysis of the economic impact of COVID-19. The project now includes a single variable linear regression model that I implemented from scratch, demonstrating my understanding of the underlying mathematical concepts and my ability to apply them in a practical context.
 
-The program uses user-selected stocks or Exchange-Traded Funds (ETFs) to simulate sector portfolios. It runs two linear regressions for each of the 11 sectors, comparing portfolio/ETF closing prices with unemployment rates and days since COVID-19 began. The program generates and saves plots and summaries, provides guidance on data interpretation and transformation, and tests hypotheses to draw conclusions.
+The program uses user-selected stocks or Exchange-Traded Funds (ETFs) to simulate sector portfolios. It runs two linear regressions for each of the 11 sectors, comparing portfolio/ETF closing prices with unemployment rates and days since COVID-19 began. The single variable regression model is used to analyze the relationship between each sector and the selected variable, providing a more granular view of the impact of COVID-19 on different sectors.
 
 Through hypothesis testing, we found significant impacts in the hospitality and travel sectors, indicating these industries were particularly vulnerable to the pandemic. These findings were presented at the end of 2020.
 
